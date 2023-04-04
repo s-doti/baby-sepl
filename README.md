@@ -3,14 +3,16 @@
 A baby version of the SEPL (algorithm execution) engine. 
 
 This baby is designed with the sole purpose of delivering a gist. 
-It weighs less than 20 lines of code, and still supports the basic concepts:
+Its [core](src/baby_sepl/core.clj) weighs less than 20 lines of code, and still supports the basic concepts:
 - Declarative
 - Separation of execution context and logic
 - Agnostic to state, data-model, storage
 
-See examples under /test:
-- Fibonacci calculator
-- Towers of Hanoi solver
+See examples under [test/baby_sepl](test/baby_sepl):
+- [Fibonacci calculator](test/baby_sepl/t_fibonacci.clj)
+- [Towers of Hanoi solver](test/baby_sepl/t_towers_of_hanoi.clj)
+
+Also, see the [baby-ginfer](https://github.com/s-doti/baby-ginfer) (graph inference) library which is built on this baby as well.
 
 I hope it is possible to see from here, albeit requires some imagination, 
 how the more mature version of this baby supports advanced control features, such as:
