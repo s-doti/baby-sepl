@@ -1,5 +1,7 @@
 # baby-sepl
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/baby-sepl.svg)](https://clojars.org/com.github.s-doti/baby-sepl)
+
 A baby version of the SEPL (algorithm execution) engine. 
 
 This baby is designed with the sole purpose of delivering a gist. 
