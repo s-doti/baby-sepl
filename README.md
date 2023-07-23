@@ -2,9 +2,10 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/baby-sepl.svg)](https://clojars.org/com.github.s-doti/baby-sepl)
 
-A baby version of the SEPL (algorithm execution) engine. 
+A baby version of the [SePL](https://github.com/s-doti/sepl) (algorithm execution) engine. 
 
 This baby is designed with the sole purpose of delivering a gist. 
+It is meant to be self-explored directly through code.
 Its [core](src/baby_sepl/core.clj) weighs less than 20 lines of code, and still supports the basic concepts:
 - Declarative
 - Separation of execution context and logic
@@ -16,12 +17,13 @@ See examples under [test/baby_sepl](test/baby_sepl):
 
 Also, see the [baby-ginfer](https://github.com/s-doti/baby-ginfer) (graph inference) library which is built on this baby as well.
 
-I hope it is possible to see from here, albeit requires some imagination, 
-how the more mature version of this baby supports advanced control features, such as:
+See the more [mature](https://github.com/s-doti/sepl) version of this library for a more in-depth review of the concept, 
+as well as additional features such as:
 - Write once, execute in any style - blocking/async, distributed, etc.
 - Pause/resume
 - DR
 - Flow debugger
+- And more...
 
 ## Usage
 
@@ -37,7 +39,7 @@ how the more mature version of this baby supports advanced control features, suc
 
 ## License
 
-Copyright © 2023 FIXME
+Copyright © 2023 [@s-doti](https://github.com/s-doti)
 
 This program and the accompanying materials are made available under the terms of the Eclipse Public License 2.0 which
 is available at
